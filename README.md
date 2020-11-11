@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+//learning process 
+
+
+//commit one: identifying the entrance of the project 
+#1: ..app/app.component.html for displaying as a single page.
+#2: ..app/app.component.ts is the corresponding typeScript file for app.component.html as indicated in its @component injection annatation.  The class AppComponent is the corresponding class definition exporting for using. you can declar any properties, method, constructors inside. access the properties by using {{propertyName}}.
+
+//commit two: little development on module and its classes, related to display a table of records of sales data.
+<!-- step 2: -->
+#1: using command "ng generate component sales-person-list" to automatically generate module in the app repository.
+<!-- step 4: -->
+#2: using command "ng generate class sales-person-list/SalesPerson" to automatically generate class file inside module's file path.
+<!-- step 5: -->
+#3: edit the file sales-person.ts.
